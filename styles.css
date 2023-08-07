@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#nav {
+    display: flex;
+    gap: 20px;
+}
+
+.ovalo {
+    display: inline-block;
+    width: 60px;
+    height: 15px;
+    background-color:rgb(245, 117, 19);
+    border: 35px 10px 0px 0px;
+    padding: 15px 25px;
+    color:#ffffff;
+    border-radius: 25px;
+}
+
+.centro {
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+}
+
+.black-text {
+    color: black;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.mostaza-text {
+    color: #DAA520; /* Mostaza */
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.full-center {
+    text-align: center;
+    width: 100%;
+}
+
+.orange-bg {
+    background-color: orange;
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
